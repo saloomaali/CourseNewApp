@@ -7,14 +7,6 @@ import { Component } from '@angular/core';
 })
 export class ViewCourseComponent {
 
-  courseTitle = ""
-  courseDescription = ""
-  courseVenue = ""
-  courseDuration = ""
-  courseDate = ""
 
-  
-
-    courses:any = [{"title":this.courseTitle,"description":this.courseDescription,"venue":this.courseVenue,"duration":this.courseVenue,"date":this.courseDate}]
   
 }
