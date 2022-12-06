@@ -33,6 +33,7 @@ const myRouter:Routes = [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot(myRouter),
+    FormsModule
 
     
   ],
