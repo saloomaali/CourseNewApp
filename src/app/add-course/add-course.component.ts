@@ -19,14 +19,14 @@ export class AddCourseComponent {
   readValue = () =>{
 
     let data:any = {"title":this.title,"description":this.description,"venue":this.venue,"duration":this.duration,"date":this.date}
-    console.log(data.re)
+    console.log(data)
 
     this.api.addCourse(data).subscribe(
       (response:any)=>{
 
         console.log(response)
  
-        if(response.status == 200){
+        if(response.status == "success"){
 
           alert("course added successfully")
           this.title = ""
